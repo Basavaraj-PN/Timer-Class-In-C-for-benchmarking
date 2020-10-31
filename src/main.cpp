@@ -15,7 +15,7 @@ class Timer{
 			auto end  = std::chrono::time_point_cast<std::chrono::microseconds>(endTimepoint).time_since_epoch().count();
 			auto duration = end - start;
 			double ms  = duration * 0.001; 
-			std::cout << duration <<" micro second "<<" ( "<<ms<<" ) "<<" mili second "<<std::endl;
+			std::cout << duration <<" micro second or "<<ms<<  " mili second"<<std::endl;
 		}
 
 	private:
