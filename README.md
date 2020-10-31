@@ -1,4 +1,4 @@
-# Timer-Class-In-CPP-for-benchmarking
+# Timer Class In CPP or C++ For Benchmarking
 Use this <b>Timer</b> class in any namespace, destructor will be called once scope ends and prints the executaion time in <b>mili and microsecond</b>.
 
 # Run code...
