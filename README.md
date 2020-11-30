@@ -3,7 +3,7 @@ Use this <b>Timer</b> class in any namespace, destructor will be called once sco
 
 # Run code...
 ## Without optimization
-g++ -std=c++11 main.cpp -o main && ./main 
+`g++ -std=c++11 main.cpp -o main && ./main `
 ## With optimization
 g++ -std=c++11 main.cpp -O3 -o main && ./main 
 
